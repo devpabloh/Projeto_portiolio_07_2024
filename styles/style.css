@@ -1,0 +1,8 @@
+:root{
+    --font--primary:"Kanit", sans-serif;
+}
+
+h1{
+    font-family: var(--font--primary);
+}
+
