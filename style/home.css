@@ -1,5 +1,22 @@
-.container__nav{
+header{
+    background-color: #851d86;
+}
+
+.container__menu{
     display: flex;
     justify-content: space-between;
+    margin: 0 2em;
+
 }
+
+.highlights{
+    color: #ffff51;
+}
+
+.container__nav{
+    display: flex;
+    gap: 1em;
+}
+
+
 
