@@ -1,12 +1,19 @@
-header{
-    background-color: #851d86;
-}
 
 .container__menu{
+    background-color: #851d86;
     display: flex;
     justify-content: space-between;
-    margin: 0 2em;
+    align-items: center;
+    height: 80px;
 
+}
+
+.container__menu h1{
+    margin-left: 2em;
+}
+
+.container__menu nav{
+    margin-right: 2em;
 }
 
 .highlights{
@@ -16,7 +23,70 @@ header{
 .container__nav{
     display: flex;
     gap: 1em;
+    
+}
+
+.container__nav li{
+    list-style-type: none;
+}
+
+.container__nav li a{
+    font-weight: bolder;
+}
+
+.container__nav li a:hover{
+    color: #ffff51;
+}
+
+.container__main{
+    background-color: #a03a9f;
+}
+
+.main__about{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__about__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40vw;
+    gap: 1em;
+    text-align: justify;
+}
+.main__about__content p{
+    font-size: 2em;
 }
 
 
+.img__perfil{
+    border: 2px solid #ffff51;
+    border-radius: 50%;
+    height: 40vh;
+    width: 20vw;
+}
+
+.main__about__button{
+    display: flex;
+    gap: 4em;
+}
+
+.button{
+    padding: 1.5em 3em;
+    border: 2px solid #ffff51 ;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #ffff51;
+}
+
+.button:hover{
+    background-color: #ffff51;
+    color: #a03a9f;
+    transition: 1s;
+}
 

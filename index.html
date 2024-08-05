@@ -15,11 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="container__menu">
-            <h1>Dev. Pablo <span class="highlights">Henrique</span></h1>
+    <header class="container__menu">
+        <h1> <span class="highlights"> &lt; </span>Dev. Pablo <span class="highlights">Henrique</span> /&gt;</h1>
+        <nav>
             <ul class="container__nav">
-                <li><a href="/">Home</a></li>
+                <li><a href="#sobre">Home</a></li>
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Minhas Skills</a></li>
                 <li><a href="">Meus Trabalhos</a></li>
@@ -27,6 +27,19 @@
             </ul>
         </nav>
     </header>
+    <main class="container__main">
+        <section id="sobre" class="main__about" >
+            <div class="main__about__content">
+                <p>Olá! Meu nome é <span class="highlights">Pablo Henrique Ferreira de França</span>, eu sou um desenvolvedor Frontend.</p>
+                <div class="main__about__button">
+                    <a class="button" href="">Download CV</a>
+                    <a class="button" href="" target="_blank">Vamos conversar</a>
+                </div>
+            </div>
+            <img class="img__perfil" src="Assets/Perfil.png" alt="">
+            
+        </section>
+    </main>
    
 </body>
 </html>
