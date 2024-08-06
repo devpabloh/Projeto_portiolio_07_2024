@@ -92,5 +92,28 @@
 
 .container__section__about{
     background-color: #000095;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.about{
+    width: 40vw;
+}
+
+.about h2, .about p{
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.img_about{
+    filter: 
+        drop-shadow(0 0 5px rgba(255, 255, 81, 0.8)) /* Amarelo base */
+        drop-shadow(0 0 10px rgba(255, 255, 81, 0.6)) /* Amarelo um pouco mais claro */
+        drop-shadow(0 0 15px rgba(255, 255, 81, 0.4)) /* Amarelo mais claro */
+        drop-shadow(0 0 20px rgba(255, 255, 81, 0.2)) /* Amarelo muito claro */
+        brightness(1.2);
 }
 

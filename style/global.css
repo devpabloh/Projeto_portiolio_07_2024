@@ -5,3 +5,12 @@
     text-decoration: none;
     color: white;
 }
+
+p{
+    font-size: 1.2em;
+    text-indent: 1em;
+}
+
+h2{
+    font-size: 1.6em;
+}
